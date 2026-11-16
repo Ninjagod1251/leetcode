@@ -1,0 +1,95 @@
+order,pattern,id,slug,title,difficulty
+1,hashing,217,contains-duplicate,Contains Duplicate,Easy
+2,hashing,242,valid-anagram,Valid Anagram,Easy
+3,hashing,1,two-sum,Two Sum,Easy
+4,hashing,49,group-anagrams,Group Anagrams,Medium
+5,hashing,347,top-k-frequent-elements,Top K Frequent Elements,Medium
+6,hashing,238,product-of-array-except-self,Product of Array Except Self,Medium
+7,hashing,128,longest-consecutive-sequence,Longest Consecutive Sequence,Medium
+8,two-pointers,125,valid-palindrome,Valid Palindrome,Easy
+9,two-pointers,167,two-sum-ii-input-array-is-sorted,Two Sum II - Input Array Is Sorted,Medium
+10,two-pointers,15,3sum,3Sum,Medium
+11,two-pointers,11,container-with-most-water,Container With Most Water,Medium
+12,two-pointers,42,trapping-rain-water,Trapping Rain Water,Hard
+13,sliding-window,121,best-time-to-buy-and-sell-stock,Best Time to Buy and Sell Stock,Easy
+14,sliding-window,3,longest-substring-without-repeating-characters,Longest Substring Without Repeating Characters,Medium
+15,sliding-window,424,longest-repeating-character-replacement,Longest Repeating Character Replacement,Medium
+16,sliding-window,567,permutation-in-string,Permutation in String,Medium
+17,sliding-window,76,minimum-window-substring,Minimum Window Substring,Hard
+18,prefix-sum,560,subarray-sum-equals-k,Subarray Sum Equals K,Medium
+19,prefix-sum,523,continuous-subarray-sum,Continuous Subarray Sum,Medium
+20,stack,20,valid-parentheses,Valid Parentheses,Easy
+21,stack,155,min-stack,Min Stack,Medium
+22,stack,150,evaluate-reverse-polish-notation,Evaluate Reverse Polish Notation,Medium
+23,stack,739,daily-temperatures,Daily Temperatures,Medium
+24,stack,394,decode-string,Decode String,Medium
+25,stack,84,largest-rectangle-in-histogram,Largest Rectangle in Histogram,Hard
+26,binary-search,704,binary-search,Binary Search,Easy
+27,binary-search,74,search-a-2d-matrix,Search a 2D Matrix,Medium
+28,binary-search,875,koko-eating-bananas,Koko Eating Bananas,Medium
+29,binary-search,153,find-minimum-in-rotated-sorted-array,Find Minimum in Rotated Sorted Array,Medium
+30,binary-search,33,search-in-rotated-sorted-array,Search in Rotated Sorted Array,Medium
+31,binary-search,981,time-based-key-value-store,Time Based Key-Value Store,Medium
+32,linked-list,206,reverse-linked-list,Reverse Linked List,Easy
+33,linked-list,21,merge-two-sorted-lists,Merge Two Sorted Lists,Easy
+34,linked-list,141,linked-list-cycle,Linked List Cycle,Easy
+35,linked-list,143,reorder-list,Reorder List,Medium
+36,linked-list,19,remove-nth-node-from-end-of-list,Remove Nth Node From End of List,Medium
+37,linked-list,146,lru-cache,LRU Cache,Medium
+38,trees,226,invert-binary-tree,Invert Binary Tree,Easy
+39,trees,104,maximum-depth-of-binary-tree,Maximum Depth of Binary Tree,Easy
+40,trees,543,diameter-of-binary-tree,Diameter of Binary Tree,Easy
+41,trees,102,binary-tree-level-order-traversal,Binary Tree Level Order Traversal,Medium
+42,trees,98,validate-binary-search-tree,Validate Binary Search Tree,Medium
+43,trees,236,lowest-common-ancestor-of-a-binary-tree,Lowest Common Ancestor of a Binary Tree,Medium
+44,trees,230,kth-smallest-element-in-a-bst,Kth Smallest Element in a BST,Medium
+45,trees,297,serialize-and-deserialize-binary-tree,Serialize and Deserialize Binary Tree,Hard
+46,tries,208,implement-trie-prefix-tree,Implement Trie (Prefix Tree),Medium
+47,tries,211,design-add-and-search-words-data-structure,Design Add and Search Words Data Structure,Medium
+48,tries,212,word-search-ii,Word Search II,Hard
+49,heap,215,kth-largest-element-in-an-array,Kth Largest Element in an Array,Medium
+50,heap,973,k-closest-points-to-origin,K Closest Points to Origin,Medium
+51,heap,621,task-scheduler,Task Scheduler,Medium
+52,heap,23,merge-k-sorted-lists,Merge k Sorted Lists,Hard
+53,heap,295,find-median-from-data-stream,Find Median from Data Stream,Hard
+54,intervals,56,merge-intervals,Merge Intervals,Medium
+55,intervals,57,insert-interval,Insert Interval,Medium
+56,intervals,435,non-overlapping-intervals,Non-overlapping Intervals,Medium
+57,intervals,729,my-calendar-i,My Calendar I,Medium
+58,backtracking,78,subsets,Subsets,Medium
+59,backtracking,39,combination-sum,Combination Sum,Medium
+60,backtracking,46,permutations,Permutations,Medium
+61,backtracking,79,word-search,Word Search,Medium
+62,backtracking,51,n-queens,N-Queens,Hard
+63,graphs,200,number-of-islands,Number of Islands,Medium
+64,graphs,133,clone-graph,Clone Graph,Medium
+65,graphs,994,rotting-oranges,Rotting Oranges,Medium
+66,graphs,417,pacific-atlantic-water-flow,Pacific Atlantic Water Flow,Medium
+67,graphs,207,course-schedule,Course Schedule,Medium
+68,graphs,210,course-schedule-ii,Course Schedule II,Medium
+69,graphs,127,word-ladder,Word Ladder,Hard
+70,graphs-advanced,547,number-of-provinces,Number of Provinces,Medium
+71,graphs-advanced,684,redundant-connection,Redundant Connection,Medium
+72,graphs-advanced,721,accounts-merge,Accounts Merge,Medium
+73,graphs-advanced,743,network-delay-time,Network Delay Time,Medium
+74,graphs-advanced,1584,min-cost-to-connect-all-points,Min Cost to Connect All Points,Medium
+75,dp-1d,70,climbing-stairs,Climbing Stairs,Easy
+76,dp-1d,198,house-robber,House Robber,Medium
+77,dp-1d,322,coin-change,Coin Change,Medium
+78,dp-1d,300,longest-increasing-subsequence,Longest Increasing Subsequence,Medium
+79,dp-1d,139,word-break,Word Break,Medium
+80,dp-1d,91,decode-ways,Decode Ways,Medium
+81,dp-1d,152,maximum-product-subarray,Maximum Product Subarray,Medium
+82,dp-2d,62,unique-paths,Unique Paths,Medium
+83,dp-2d,1143,longest-common-subsequence,Longest Common Subsequence,Medium
+84,dp-2d,72,edit-distance,Edit Distance,Medium
+85,dp-2d,416,partition-equal-subset-sum,Partition Equal Subset Sum,Medium
+86,greedy,53,maximum-subarray,Maximum Subarray,Medium
+87,greedy,55,jump-game,Jump Game,Medium
+88,greedy,134,gas-station,Gas Station,Medium
+89,greedy,763,partition-labels,Partition Labels,Medium
+90,design,380,insert-delete-getrandom-o1,Insert Delete GetRandom O(1),Medium
+91,design,1146,snapshot-array,Snapshot Array,Medium
+92,design,1396,design-underground-system,Design Underground System,Medium
+93,design,432,all-oone-data-structure,All O`one Data Structure,Hard
+94,design,460,lfu-cache,LFU Cache,Hard
