@@ -103,7 +103,7 @@ class LogAlgoTest(unittest.TestCase):
         self.assertIn("| 2026-11-16 | new | 18 | 0 | 4/5 | 2026-11-30 |", notes)
         readme = self.repo.read("README.md")
         self.assertIn("**Streak:** 1 day as of 2026-11-16", readme)
-        self.assertIn("**Problems:** 1 (1 Easy", readme)
+        self.assertIn("**Problems logged:** 1 (1 Easy", readme)
 
         code, out = self.repo.log("two-sum", "-m", "9", "-H", "1", "-c", "3", "--date", "2026-11-30")
         self.assertEqual(code, 0, out)

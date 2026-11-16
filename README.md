@@ -7,9 +7,10 @@ Accepted LeetCode submissions sync into [`solutions/`](solutions) automatically 
 <!-- lc:stats:start -->
 [![LeetCode stats](https://leetcard.jacoblin.cool/chippenkales?ext=heatmap)](https://leetcode.com/u/chippenkales/)
 
-**Streak:** not started yet · **Practice days:** 0
-**Problems:** 0 (0 Easy · 0 Medium · 0 Hard) · **Solved first try without hints:** n/a · **Re-solves:** 0 · **Retained** (clean re-solve): 0
-**Practical sessions:** Code design 0 · Bug squash 0 · Integration 0 · AI-assisted 0 · Mock interview 0
+- **Streak:** not started yet · **Practice days:** 0
+- **Problems logged:** 0 (0 Easy · 0 Medium · 0 Hard) · **Solved first try without hints:** n/a
+- **Re-solves:** 0 · **Retained** (solved again cleanly): 0
+- **Practical sessions:** Code design 0 · Bug squash 0 · Integration 0 · AI-assisted 0 · Mock interview 0
 
 | Pattern | Roadmap progress |
 |---|---|

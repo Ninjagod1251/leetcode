@@ -348,16 +348,17 @@ def render_stats(root: Path, cfg: dict) -> str:
         out += [f"[![LeetCode stats](https://leetcard.jacoblin.cool/{user}?ext=heatmap)]"
                 f"(https://leetcode.com/u/{user}/)", ""]
     if last:
-        out.append(f"**Streak:** {plural(run_ending_at(days, last), 'day')} as of {last} "
+        out.append(f"- **Streak:** {plural(run_ending_at(days, last), 'day')} as of {last} "
                    f"(longest {longest_run(days)}) · **Practice days:** {len(days)}")
     else:
-        out.append("**Streak:** not started yet · **Practice days:** 0")
+        out.append("- **Streak:** not started yet · **Practice days:** 0")
     no_hint = f"{round(100 * clean_first / len(first_try))}%" if first_try else "n/a"
-    out.append(f"**Problems:** {len(solved)} ({by_difficulty['Easy']} Easy · "
+    out.append(f"- **Problems logged:** {len(solved)} ({by_difficulty['Easy']} Easy · "
                f"{by_difficulty['Medium']} Medium · {by_difficulty['Hard']} Hard) · "
-               f"**Solved first try without hints:** {no_hint} · "
-               f"**Re-solves:** {len(resolves)} · **Retained** (clean re-solve): {len(retained)}")
-    out.append("**Practical sessions:** " + " · ".join(
+               f"**Solved first try without hints:** {no_hint}")
+    out.append(f"- **Re-solves:** {len(resolves)} · "
+               f"**Retained** (solved again cleanly): {len(retained)}")
+    out.append("- **Practical sessions:** " + " · ".join(
         f"{name} {sessions[key]}" for key, name in TRACK_NAMES.items()))
     out += ["", "| Pattern | Roadmap progress |", "|---|---|"]
 
